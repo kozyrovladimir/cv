@@ -1,0 +1,18 @@
+.skills {
+    background-color: rgba(255, 215, 0, 0.42);
+    height: 100vh;
+}
+
+.skills__box {
+    width: 100%;
+}
+
+.skills__titleBox {
+    text-align: center;
+    line-height: 200px;
+}
+
+.skills__items {
+    display: flex;
+    justify-content: space-around;
+}

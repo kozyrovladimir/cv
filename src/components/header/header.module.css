@@ -1,0 +1,21 @@
+.navigation {
+}
+
+.navigation__box {
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navigation__list {
+    list-style-type: none;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__linkItem {
+    text-decoration: none;
+}
