@@ -1,0 +1,38 @@
+.footer {
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.footerBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__title {
+    text-align: center;
+}
+
+.footer__socialТetworks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__socialТetworksItem {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.3);
+    text-align: center;
+}
+
+.footer__socialТetworksItem a {
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    text-align: center;
+}

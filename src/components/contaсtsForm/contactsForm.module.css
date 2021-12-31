@@ -1,0 +1,38 @@
+.contactsForm {
+    height: 100vh;
+    background-color: rgba(138, 43, 226, 0.32);
+    display: flex;
+    align-items: center;
+}
+
+.contactsForm__titleBox{
+    line-height: 100px;
+    text-align: center;
+}
+
+.contactsForm__box {
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactsForm__form {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactsForm__formItem {
+    min-width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactsForm__submitButtonBox {
+    text-align: center;
+}
