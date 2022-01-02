@@ -9,11 +9,13 @@
     text-align: center;
 }
 
-.footerBox h3 {
+.footer__title {
+    word-wrap: break-word;
     background-color: #ae7bda;
 }
 
 .footerBox span {
+    word-wrap: break-word;
     background-color: #ae7bda;
 }
 

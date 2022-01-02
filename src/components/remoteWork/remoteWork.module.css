@@ -1,10 +1,9 @@
 .remoteWork {
-    padding: 40px 10px;
     background-color: rgba(0, 128, 0, 0.31);
 }
 
 .remoteWork__box{
-    height: 100%;
+    padding: 40px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,6 +11,7 @@
 }
 
 .remoteWork__title {
+    word-wrap: break-word;
     background-color: #6ace6a;
     margin-bottom: 40px;
     text-align: center;

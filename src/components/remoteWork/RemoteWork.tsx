@@ -5,11 +5,9 @@ const RemoteWork = () => {
     return (
         <div className={styles.remoteWork}>
             <div className={`wrapper ${styles.remoteWork__box}`}>
-                <div className={styles.remoteWork__title}>
-                    <h3>Рассматриваю варианты удаленной работы</h3>
-                </div>
+                <h3 className={styles.remoteWork__title}>Рассматриваю варианты удаленной работы</h3>
                 <div>
-                    <button className={styles.remoteWork__button} >Нанять меня</button>
+                    <button className={styles.remoteWork__button}>Нанять меня</button>
                 </div>
             </div>
         </div>

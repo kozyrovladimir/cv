@@ -3,11 +3,12 @@
 }
 
 .contactsForm__box{
-    padding: 40px 0;
+    padding: 40px 10px;
     text-align: center;
 }
 
-.contactsForm__box h2 {
+.contactsForm__title {
+    word-wrap: break-word;
     background-color: #9894fa;
 }
 
