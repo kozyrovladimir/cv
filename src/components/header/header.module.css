@@ -6,7 +6,6 @@
     padding: 20px;
     display: flex;
     justify-content: end;
-    align-items: center;
 }
 
 .navigation__list {
@@ -14,11 +13,15 @@
     width: 100%;
     display: flex;
     justify-content: right;
+    flex-wrap: wrap;
 }
 
 .navigation__linkItem {
     border: 1px solid black;
     background-color: #dedede;
     padding: 10px;
+}
+
+.navigation__linkItem a {
     text-decoration: none;
 }
