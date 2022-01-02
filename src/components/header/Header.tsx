@@ -10,9 +10,6 @@ const Header = () => {
                     <li className={styles.navigation__linkItem}><a href="#">Скиллы</a></li>
                     <li className={styles.navigation__linkItem}><a href="#">Работы</a></li>
                     <li className={styles.navigation__linkItem}><a href="#">Контакты</a></li>
-                    <li className={styles.navigation__linkItem}><a href="#">Контакты</a></li>
-                    <li className={styles.navigation__linkItem}><a href="#">Контакты</a></li>
-                    <li className={styles.navigation__linkItem}><a href="#">Контакты</a></li>
                 </ul>
             </div>
         </nav>
