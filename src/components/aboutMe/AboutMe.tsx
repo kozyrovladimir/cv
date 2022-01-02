@@ -6,8 +6,8 @@ const AboutMe = () => {
         <div className={styles.aboutMe}>
             <div className={`wrapper ${styles.aboutMe__box}`}>
                 <div className={styles.aboutMe__info}>
-                    <span>Привет!</span>
-                    <span>Меня зовут Владимир Козыро</span>
+                    <p>Привет!</p>
+                    <p>Меня зовут Владимир Козыро</p>
                     <h2>Я front-end разработчик</h2>
                 </div>
                 <div className={styles.aboutMe__photo}>

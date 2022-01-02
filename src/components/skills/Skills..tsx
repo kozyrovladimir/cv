@@ -6,10 +6,10 @@ const Skills = () => {
     return (
         <div className={styles.skills}>
             <div className={`wrapper ${styles.skills__box}`}>
-                <div className={styles.skills__titleBox}>
-                    <h2>Мои скиллы!</h2>
-                </div>
+                <h2>Мои скиллы!</h2>
                 <div className={styles.skills__items}>
+                    <Skill/>
+                    <Skill/>
                     <Skill/>
                     <Skill/>
                     <Skill/>

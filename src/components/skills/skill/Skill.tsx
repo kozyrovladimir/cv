@@ -6,8 +6,11 @@ const Skill = () => {
         <div className={styles.skill}>
             <div className={styles.skill__icon}>
             </div>
-            <h3>Название скилла</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae deserunt non.</p>
+            <div className={styles.skill__info}>
+                <h3>Название скилла</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae deserunt non.</p>
+            </div>
+
         </div>
     );
 };

@@ -1,38 +1,29 @@
 .contactsForm {
-    height: 100vh;
     background-color: rgba(138, 43, 226, 0.32);
-    display: flex;
-    align-items: center;
 }
 
-.contactsForm__titleBox{
-    line-height: 100px;
+.contactsForm__box{
+    padding: 40px 0;
     text-align: center;
 }
 
-.contactsForm__box {
-    height: 600px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contactsForm__box h2 {
+    background-color: #9894fa;
 }
 
 .contactsForm__form {
-    height: 300px;
+    margin: 10px auto;
+    max-width: 500px;
+    border: 1px solid black;
+    background-color: #b099c7;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.contactsForm__formItem {
-    min-width: 370px;
-    display: flex;
-    justify-content: space-between;
+.contactsForm__form input {
+    margin: 10px;
 }
 
-.contactsForm__submitButtonBox {
-    text-align: center;
+.contactsForm__form textarea {
+    margin: 10px;
 }

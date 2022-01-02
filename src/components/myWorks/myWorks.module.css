@@ -1,0 +1,25 @@
+.myWorks {
+    background-color: rgba(239, 109, 10, 0.3);
+}
+
+.myWorks__box {
+    padding: 40px 10px 20px;
+}
+
+.myWorks__title {
+    text-align: center;
+    background-color: #ae7bda;
+}
+
+.myWorks__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1060px) {
+    .myWorks__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}

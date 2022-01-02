@@ -5,26 +5,22 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.footerBox}>
-                <div className={styles.footer__title}>
-                    <h3>Владимир Козыро</h3>
-                </div>
-                <div className={styles.footer__socialТetworks}>
-                    <div className={styles.footer__socialТetworksItem}>
+                <h3>Владимир Козыро</h3>
+                <div className={styles.footer__socialNetworks}>
+                    <div className={styles.footer__socialNetworksItem}>
                         <a href="#">VK</a>
                     </div>
-                    <div className={styles.footer__socialТetworksItem}>
+                    <div className={styles.footer__socialNetworksItem}>
                         <a href="#">Inst</a>
                     </div>
-                    <div className={styles.footer__socialТetworksItem}>
+                    <div className={styles.footer__socialNetworksItem}>
                         <a href="#">GitHub</a>
                     </div>
-                    <div className={styles.footer__socialТetworksItem}>
+                    <div className={styles.footer__socialNetworksItem}>
                         <a href="#">Link</a>
                     </div>
                 </div>
-                <div className={styles.footer__copyright}>
-                    <span>Все права защищены. 2022.</span>
-                </div>
+                <span>Все права защищены. 2022.</span>
             </div>
         </footer>
     );
